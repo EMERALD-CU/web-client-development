@@ -7,6 +7,6 @@ function removeFirstOccurrence(str: string, search: string): string {
 }
 
 // Input dan Output
-const str: string = prompt("Masukkan string: ") || "";
+const string: string = prompt("Masukkan string: ") || "";
 const search: string = prompt("Masukkan string pencarian: ") || "";
-console.log(removeFirstOccurrence(str, search));
+console.log(removeFirstOccurrence(string, search));
